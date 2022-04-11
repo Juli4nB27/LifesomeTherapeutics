@@ -40,7 +40,10 @@ header{
     text-decoration: none;
     padding: 0.3rem;
     }
-    
+    a :hover{
+        color: #a71e34;
+        transition: 0.5s;
+    }
     .title{
     color: white;
     font-size: 3rem;
@@ -210,6 +213,23 @@ header{
         flex-direction: column;
     }
 
+    .instagramFooter{
+        background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+        padding: 11px 0.1px;
+        border-radius: 30%;
+        color: rgba(255, 255, 255, 0.934);
+    }
+    .twitterFooter{
+        color: #00acee;
+        background-color: white;
+        padding: 11px 0.1px;
+    }
+    .facebookFooter{
+        color: #3b5998;
+        background-color: white;
+        padding: 12px 0.1px;
+        border-radius: 10%;
+    }
     /* footer */
 }
 
@@ -243,7 +263,10 @@ header{
         text-decoration: none;
         font-size: 1.3rem;
     }
-    
+    a :hover{
+        color: #a71e34;
+        transition: 0.5s;
+    }
     .title{
         color: white;
         font-size: 3rem;
@@ -430,6 +453,23 @@ header{
         flex-direction: column;
     }
 
+    .instagramFooter{
+        background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+        padding: 11px 0.1px;
+        border-radius: 30%;
+        color: rgba(255, 255, 255, 0.934);
+    }
+    .twitterFooter{
+        color: #00acee;
+        background-color: white;
+        padding: 11px 0.1px;
+    }
+    .facebookFooter{
+        color: #3b5998;
+        background-color: white;
+        padding: 12px 0.1px;
+        border-radius: 10%;
+    }
     /* footer */
 }
 
@@ -465,7 +505,10 @@ header{
         padding: 0.3rem;
     }
 
-    
+    a :hover{
+        color: #a71e34;
+        transition: 0.5s;
+    }
     /*main company texto*/
     .mainCompany1{
         display: flex;
@@ -687,6 +730,24 @@ header{
         flex-direction: column;
     }
 
+
+    .instagramFooter{
+        background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+        padding: 11px 0.1px;
+        border-radius: 30%;
+        color: rgba(255, 255, 255, 0.934);
+    }
+    .twitterFooter{
+        color: #00acee;
+        background-color: white;
+        padding: 11px 0.1px;
+    }
+    .facebookFooter{
+        color: #3b5998;
+        background-color: white;
+        padding: 12px 0.1px;
+        border-radius: 10%;
+    }
     /* footer */
 }
 /* MEDIA COMPANY ESCRITORIO*/
@@ -717,7 +778,10 @@ header{
         padding: 0.3rem;
     }
 
-
+    a :hover{
+        color: #a71e34;
+        transition: 0.5s;
+    }
     .title{
         color: white;
         font-size: 3rem;
@@ -949,6 +1013,25 @@ header{
     .maInfFooter h4 h5{
         display: flex;
         flex-direction: column;
+    }
+
+
+    .instagramFooter{
+        background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+        padding: 11px 0.1px;
+        border-radius: 30%;
+        color: rgba(255, 255, 255, 0.934);
+    }
+    .twitterFooter{
+        color: #00acee;
+        background-color: white;
+        padding: 11px 0.1px;
+    }
+    .facebookFooter{
+        color: #3b5998;
+        background-color: white;
+        padding: 12px 0.1px;
+        border-radius: 10%;
     }
     /* footer */
 }
