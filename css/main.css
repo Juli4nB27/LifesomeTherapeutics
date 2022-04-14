@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header{
+.header{
     height: 30rem;
     background-image: url(../img/fondopantalla.png);
     display: flex;
@@ -15,236 +15,17 @@ header{
     align-items: center;
 }
                     
-/* media mobile */
-@media only screen and (max-width:600px){
-  
+
+/* MEDIA ESCRITORIO*/
+@media only screen and (min-width:760px){
+    .mobile{
+        display: none;
+    }
    .logo li{
     display: flex;
     align-items: center;
-    margin: 1rem; 
-    }
-    .menu1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: white;
-    list-style: none;
-    text-decoration: none;
-    flex-direction: row;
-    }
-    a{
-    display: flex;
-    justify-content: center;
-    color: white;
-    list-style: none;
-    text-decoration: none;
-    padding: 0.3rem;
-    }
-    a :hover{
-        color: #a71e34;
-        transition: 0.5s;
-    }
-    .title{
-    color: white;
-    font-size: 3rem;
-    padding: 0.3rem;
-    margin-left: 5vw;
-    text-align: center;
-    }
-    img{
-        width: 20vw;
-    }
-
-    .mainSubtitulo{
-        text-align: center;
-        margin: 3rem;
-        padding-bottom: 3rem;
-        border-bottom: solid black;
-    }
-
-    .imgBioquimica{
-        width: 20vw;
-        justify-content: center;
-    }
-    .mainParrafo1{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row-reverse;
-        align-items: center;
-        margin-bottom: 3rem;
-        margin-left: 3rem;
-        margin-right: 3rem;
-        padding: 1rem;
-        text-align: center;
-        justify-content: center;
-        background-color: #641220;
-    }
-
-    .imgQuimica{
-        width: 20vw;
-        justify-content: center;
-    }
-
-    .mainParrafo2{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row-reverse;
-        align-items: center;
-        margin-bottom: 3rem;
-        margin-left: 3rem;
-        margin-right: 3rem;
-        padding: 1rem;
-        text-align: center;
-        justify-content: center;
-        background-color: #85182a;
-    }
-
-    .imgMolecular{
-        width: 20vw;
-        
-    }
-
-    .mainParrafo3{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row-reverse;
-        align-items: center;
-        margin-bottom: 3rem;
-        margin-left: 3rem;
-        margin-right: 3rem;
-        padding:1rem;
-        text-align: center;
-        justify-content: center;
-        background-color: #a71e34;
-    }
-
-    .imgEstMolecular{
-        width: 20vw;
-    }    
-
-    .mainParrafo4{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row-reverse;
-        align-items: center;
-        margin-bottom: 3rem;
-        margin-left: 3rem;
-        margin-right: 3rem;
-        padding: 1rem;
-        text-align: center;
-        justify-content: center;
-        background-color: #ce1934;
-    }
-    .mainSectionFondo{
-        background-color: #780000;
-        margin: 0rem 0rem 0rem 0rem;
-        padding-bottom: 3rem;
-        padding-top: 3rem;
-    }
-    .mainSection2{
-        text-align: start;
-        margin-left:3rem;
-        margin-right:3rem;
-    }
-    .mainSection2b{
-        text-align: start;
-    }
-
-    .mainSection3{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin: 3rem 0rem 2rem 0.5rem;
     }
     
-    footer{
-        color: black;
-        background-image: url(../img/Background.png);
-    }
-
-    .tituloFooter{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin: 3rem 1rem 1rem 3rem;
-        padding: 2rem 0rem 0rem 0rem;
-    }
-
-    .eslogan{
-        margin: 0.5rem 0rem 0rem 0rem;
-    }
-
-    .redesFooter{
-        display: flex;
-        flex-direction: row;
-        align-content:flex-start;
-        margin: 0rem 1rem 1rem 3rem;
-    }
-    .h4Redes{
-        display: flex;
-        flex-direction: row;
-        align-content: flex-start;
-        margin: 0rem 1rem 1rem 3rem;
-    }
-    .h4Footer {
-        display: flex;
-        flex-direction: row;
-        align-content: space-between;
-        font-weight: bold;
-    }
-
-    .contacInfFooter{
-        display: flex;
-        flex-direction: column;
-        margin: 1rem 0rem 0rem 0rem;
-    }
-
-    .contactosInfFooter{
-        display: flex;
-        flex-direction: column;
-        text-align: end;
-        margin: 0rem 3rem 1rem 1rem;
-        padding-bottom: 1rem;
-    }
-
-    .maInfFooter h4 h5{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .instagramFooter{
-        background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-        padding: 11px 0.1px;
-        border-radius: 30%;
-        color: rgba(255, 255, 255, 0.934);
-    }
-    .twitterFooter{
-        color: #00acee;
-        background-color: white;
-        padding: 11px 0.1px;
-    }
-    .facebookFooter{
-        color: #3b5998;
-        background-color: white;
-        padding: 12px 0.1px;
-        border-radius: 10%;
-    }
-    /* footer */
-}
-
-
-
-
-/* media escritorio*/
-
-@media only screen and (min-width:600px){
-  
-   .logo li{
-    display: flex;
-    align-items: center;
-    }
-
     .menu1{
         display: flex;
         flex-wrap: nowrap;
@@ -275,7 +56,7 @@ header{
     }
 
     img{
-        width: 20vw;
+        width: 30vw;
     }
 
     .title{
@@ -387,18 +168,7 @@ header{
         text-align: start;
     }
 
-    .mainSection3{
-        display: flex;
-        justify-content: space-around;
-        margin: 3rem 0rem 3rem 0.5rem;
-        text-align: center;
-    }
-    .img1NormalCells{
-        margin:0.7rem;
-    }
-    .img2TumorCells{
-        margin: 0.8rem;
-    }
+    
     footer{
         color: black;
         background-image: url(../img/Background.png);
@@ -471,13 +241,12 @@ header{
         border-radius: 10%;
     }
     /* footer */
-}
-
-
-
-/* MEDIA COMPANY ESCRITORIO*/
-@media only screen and (min-width:600px){
-
+    .mobile{
+        display: none;
+    }
+    .navbar{
+        background-image: url(../img/fondopantalla.png);
+    }
     .logoCompany li{
         width: 15rem;
         display: flex;
@@ -749,12 +518,88 @@ header{
         border-radius: 10%;
     }
     /* footer */
-}
-/* MEDIA COMPANY ESCRITORIO*/
 
-/* MEDIA COMPANY MOBILE*/
-@media only screen and (max-width:600px){
-   
+
+    /* TECNOLOGY */
+    .mainTecnology1{
+        display: flex;
+        justify-content: center;
+        margin: 3rem 3rem 0rem 3rem;
+    }
+    .h1mainTecnology1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: start;
+        font-size: 1.2rem;
+        margin: 1rem 3rem 1rem 3rem;
+        font-weight: bold;
+    }
+    .pMainTecnology1{
+        padding-top: 0.5rem;
+        font-weight: normal;
+    }
+    
+    .mainSection3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    .sec1NormalCells{
+        margin: 0rem 2rem 0rem 3rem;
+    }
+    .tumorCells{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 70vw;
+    }
+    .tumorCellsMobile{
+        display: none;
+    }
+    .divSection3{
+        margin: 3rem 3rem 0rem 3rem;
+    }
+    .pMainTecnology2{
+        text-align: center;
+        font-size: 1.2rem;
+        margin: 0rem 3rem 1rem 3rem;
+    }
+    .EmbudoTest{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 70vw;
+        margin: 1rem 1rem 1rem 3rem;
+    }
+    .main3Tecnology{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pMainTecnology3{
+        display: flex;
+        text-align: center;
+        margin: 1rem 5rem 0rem 5rem;
+        font-size: 1.2rem;
+    }
+}
+/* MEDIA ESCRITORIO*/
+
+
+
+/* MEDIA  MOBILE*/
+@media only screen and (max-width:761px){
+    .escritorio{
+        display: none;
+    }
+    .b-color{
+        background-color: white;
+    }
+    .navbar-light .navbar-brand{
+        color: white;
+    }
     .logo li{
         display: flex;
         align-items: center;
@@ -1015,6 +860,227 @@ header{
         flex-direction: column;
     }
 
+    .instagramFooter{
+        background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+        padding: 11px 0.1px;
+        border-radius: 30%;
+        color: rgba(255, 255, 255, 0.934);
+    }
+    .twitterFooter{
+        color: #00acee;
+        background-color: white;
+        padding: 11px 0.1px;
+    }
+    .facebookFooter{
+        color: #3b5998;
+        background-color: white;
+        padding: 12px 0.1px;
+        border-radius: 10%;
+    }
+    /* footer */
+    .escritorio{
+        display: none;
+    }
+    .navbar{
+        background-image: url(../img/fondopantalla.png);
+    }
+    
+    .navbar-light .navbar-brand{
+        color: white;
+    }
+   .logo li{
+    display: flex;
+    align-items: center;
+    margin: 1rem; 
+    }
+    .menu1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    flex-direction: row;
+    }
+    a{
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding: 0.3rem;
+    }
+    a :hover{
+        color: #a71e34;
+        transition: 0.5s;
+    }
+    .title{
+    color: white;
+    font-size: 3rem;
+    padding: 0.3rem;
+    margin-left: 5vw;
+    text-align: center;
+    }
+    img{
+        width: 20vw;
+    }
+
+    .mainSubtitulo{
+        text-align: center;
+        margin: 6rem 3rem 3rem 3rem;
+        padding-bottom: 2rem;
+        border-bottom: solid black;
+    }
+
+    .imgBioquimica{
+        width: 20vw;
+        justify-content: center;
+    }
+    .mainParrafo1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-bottom: 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        padding: 1rem;
+        text-align: center;
+        justify-content: center;
+        background-color: #641220;
+    }
+
+    .imgQuimica{
+        width: 20vw;
+        justify-content: center;
+    }
+
+    .mainParrafo2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-bottom: 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        padding: 1rem;
+        text-align: center;
+        justify-content: center;
+        background-color: #85182a;
+    }
+
+    .imgMolecular{
+        width: 20vw;
+        
+    }
+
+    .mainParrafo3{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-bottom: 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        padding:1rem;
+        text-align: center;
+        justify-content: center;
+        background-color: #a71e34;
+    }
+
+    .imgEstMolecular{
+        width: 20vw;
+    }    
+
+    .mainParrafo4{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-bottom: 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        padding: 1rem;
+        text-align: center;
+        justify-content: center;
+        background-color: #ce1934;
+    }
+    .mainSectionFondo{
+        background-color: #780000;
+        margin: 0rem 0rem 0rem 0rem;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
+    .mainSection2{
+        text-align: start;
+        margin-left:3rem;
+        margin-right:3rem;
+    }
+    .mainSection2b{
+        text-align: start;
+    }
+
+    .mainSection3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    footer{
+        color: black;
+        background-image: url(../img/Background.png);
+    }
+
+    .tituloFooter{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 3rem 1rem 1rem 3rem;
+        padding: 2rem 0rem 0rem 0rem;
+    }
+
+    .eslogan{
+        margin: 0.5rem 0rem 0rem 0rem;
+    }
+
+    .redesFooter{
+        display: flex;
+        flex-direction: row;
+        align-content:flex-start;
+        margin: 0rem 1rem 1rem 3rem;
+    }
+    .h4Redes{
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
+        margin: 0rem 1rem 1rem 3rem;
+    }
+    .h4Footer {
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        font-weight: bold;
+    }
+
+    .contacInfFooter{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0rem 0rem 0rem;
+    }
+
+    .contactosInfFooter{
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        margin: 0rem 3rem 1rem 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .maInfFooter h4 h5{
+        display: flex;
+        flex-direction: column;
+    }
 
     .instagramFooter{
         background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
@@ -1034,5 +1100,78 @@ header{
         border-radius: 10%;
     }
     /* footer */
+
+
+
+    /* TECNOLOGY */
+    .mainTecnology1{
+        display: flex;
+        justify-content: center;
+        margin: 3rem 3rem 0rem 3rem;
+    }
+    .h1mainTecnology1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: start;
+        font-size: 1.2rem;
+        margin: 3rem 3rem 1rem 3rem;
+    }
+    .pMainTecnology1{
+        padding-top: 0.5rem;
+    }
+    
+    .mainSection3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    .sec1NormalCells{
+        margin: 0rem 2rem 0rem 3rem;
+    }
+    .tumorCells{
+        display: none;
+    }
+    .tumorCellsMobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70vw;
+    }
+    .divSection3{
+        margin: 3rem 3rem 0rem 3rem;
+    }
+    .pMainTecnology2{
+        text-align: center;
+        font-size: 1.2rem;
+        margin: 0rem 3rem 1rem 3rem;
+    }
+    .EmbudoTest{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 70vw;
+        margin: 1rem 1rem 1rem 3rem;
+    }
+    .main3Tecnology{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pMainTecnology3{
+        display: flex;
+        text-align: center;
+        margin: 1rem 5rem 0rem 5rem;
+        font-size: 1.2rem;
+    }
+
 }
-/* MEDIA COMPANY MOBILE*/
+/* MEDIA MOBILE*/
+
+
+
+
+
+
+
