@@ -6,10 +6,10 @@
 }
 
 .header{
-    height: 35rem;
+    height: 30rem;
     background-image: url(../img/fondopantalla.png);
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -61,7 +61,6 @@
 
     .title{
         text-align: center;
-        margin: 4rem;
     }
 
     .mainSubtitulo{
