@@ -1,0 +1,48 @@
+header {
+    .logo {
+        a {
+            li {
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 30vw;
+                }
+            }
+        }
+    }
+    nav {
+        ul {
+            .menu1 {
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: center;
+                color: white;
+                list-style: none;
+                text-decoration: none;
+                flex-direction: row;
+
+                a {
+                    display: flex;
+                    justify-content: center;
+                    color: white;
+                    list-style: none;
+                    text-decoration: none;
+                    font-size: 1.3rem;
+                    padding: 0.3rem;
+
+                    li {
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+    .title{
+        color: white;
+        font-size: 3rem;
+        margin: 1rem 3rem;
+        padding: 0.3rem;
+    }
+}
