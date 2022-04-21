@@ -1,21 +1,36 @@
-header {
-    .logo {
-        a {
-            li {
-                display: flex;
-                align-items: center;
+@import "mainPages/breakPoints";
 
-                img {
-                    width: 30vw;
-                }
-            }
+header {
+    .mobile {
+        @include media-up(md) {
+            display: none;
         }
     }
+
+    .escritorio {
+        display: none;
+        @include media-up(md) {
+            display: block;
+        }
+    }
+
     nav {
         ul {
+            .logo {
+                a {
+                    li {
+                        display: flex;
+                        justify-content: center;
+                        img {
+                            width: 25vw;
+                        }
+                    }
+                }
+            }
+
             .menu1 {
                 display: flex;
-                flex-wrap: nowrap;
+                flex-wrap: wrap;
                 justify-content: center;
                 color: white;
                 list-style: none;
@@ -28,8 +43,16 @@ header {
                     color: white;
                     list-style: none;
                     text-decoration: none;
-                    font-size: 1.3rem;
-                    padding: 0.3rem;
+                    padding: 0.9rem;
+
+                    @include media-up(md) {
+                        display: flex;
+                        justify-content: center;
+                        color: white;
+                        list-style: none;
+                        text-decoration: none;
+                        font-size: 1.2rem;
+                    }
 
                     li {
                         display: flex;
@@ -39,10 +62,20 @@ header {
             }
         }
     }
-    .title{
+
+    .title {
         color: white;
         font-size: 3rem;
-        margin: 1rem 3rem;
         padding: 0.3rem;
+        margin-left: 5vw;
+        text-align: center;
+
+        @include media-up(md) {
+            color: white;
+            font-size: 3rem;
+            margin: 3rem 3rem;
+            padding: 0.3rem;
+        }
+
     }
 }

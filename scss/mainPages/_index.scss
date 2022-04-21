@@ -1,50 +1,90 @@
 main {
     .mainSubtitulo {
         text-align: center;
-        margin: 3rem;
-        padding-bottom: 3rem;
-        border-bottom: solid rgb(11, 11, 11);
-        font-size: 1.2rem;
+        margin: 6rem 3rem 3rem 3rem;
+        padding-bottom: 2rem;
+        border-bottom: solid black;
+
+        @include media-up(md) {
+            text-align: center;
+            margin: 3rem;
+            padding-bottom: 3rem;
+            border-bottom: solid rgb(11, 11, 11);
+            font-size: 1.2rem;
+        }
     }
 
     .parrafo1 {
         .mainParrafo1 {
             display: flex;
-            flex-wrap: nowrap;
-            flex-direction: row;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
             align-items: center;
-            margin: 0rem 3rem 3rem 3rem;
-            text-align: start;
+            margin: 3rem 5rem 3rem 5rem;
+            padding: 1rem;
+            text-align: center;
             justify-content: center;
             background-color: #641220;
-            font-size: 1.1rem;
+
+            @include media-up(md) {
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                align-items: center;
+                margin: 3rem 5rem 3rem 5rem;
+                text-align: start;
+                justify-content: center;
+                background-color: #641220;
+                font-size: 1.1rem;
+            }
 
             .imgBioquimica {
                 width: 20vw;
                 justify-content: center;
-                padding: 1rem;
+
+                @include media-up(md) {
+                    width: 15vw;
+                    justify-content: center;
+                    padding: 1rem;
+                }
             }
         }
     }
 
-
     .parrafo2 {
         .mainParrafo2 {
             display: flex;
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
             flex-direction: row-reverse;
             align-items: center;
-            margin: 0rem 3rem 3rem 3rem;
-            text-align: start;
+            margin: 3rem 5rem 3rem 5rem;
+            padding: 1rem;
+            text-align: center;
             justify-content: center;
             background-color: #85182a;
-            font-size: 1.1rem;
+
+            @include media-up(md) {
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: row-reverse;
+                align-items: center;
+                margin: 3rem 5rem 3rem 5rem;
+                padding-left: 1rem;
+                text-align: start;
+                justify-content: center;
+                background-color: #85182a;
+                font-size: 1.1rem;
+            }
 
             .imgQuimica {
                 width: 20vw;
                 justify-content: center;
-                padding: 1rem;
-                margin-left: 5rem;
+
+                @include media-up(md) {
+                    width: 15vw;
+                    justify-content: center;
+                    padding: 1rem;
+                }
             }
         }
     }
@@ -52,20 +92,36 @@ main {
     .parrafo3 {
         .mainParrafo3 {
             display: flex;
-            flex-wrap: nowrap;
-            flex-direction: row;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
             align-items: center;
-            margin: 0rem 3rem 3rem 3rem;
-            text-align: start;
+            margin: 3rem 5rem 3rem 5rem;
+            padding: 1rem;
+            text-align: center;
             justify-content: center;
             background-color: #a71e34;
-            font-size: 1.1rem;
+
+            @include media-up(md) {
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                align-items: center;
+                margin: 3rem 5rem 3rem 5rem;
+                text-align: start;
+                justify-content: center;
+                background-color: #a71e34;
+                font-size: 1.1rem;
+            }
 
             .imgMolecular {
                 width: 20vw;
-                justify-content: center;
-                padding: 1rem;
-                margin-right: 10rem;
+
+                @include media-up(md) {
+                    width: 15vw;
+                    justify-content: center;
+
+                    padding: 1rem;
+                }
             }
         }
     }
@@ -73,36 +129,44 @@ main {
     .parrafo4 {
         .mainParrafo4 {
             display: flex;
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
             flex-direction: row-reverse;
             align-items: center;
-            margin: 0rem 3rem 3rem 3rem;
-            padding-left: 1rem;
-            text-align: start;
+            margin: 3rem 5rem 3rem 5rem;
+            padding: 1rem;
+            text-align: center;
             justify-content: center;
-            background-color: #c71f37;
-            font-size: 1.1rem;
+            background-color: #ce1934;
+
+            @include media-up(md) {
+                display: flex;
+                flex-wrap: nowrap;
+                font-size: 1.1rem;
+                margin: 3rem 5rem 3rem 5rem;
+            }
 
             .imgEstMolecular {
-                width: 20vw;
-                justify-content: center;
-                padding: 1rem;
-                margin-left: 12rem;
+                width: 15vw;
+
+                @include media-up(md) {
+                    justify-content: center;
+                    padding: 1rem;
+                }
             }
         }
     }
 
     .mainSectionFondo {
         background-color: #780000;
-        margin: 0rem 0rem 0rem 0rem;
+        margin: 0rem;
         padding-bottom: 3rem;
         padding-top: 3rem;
 
         .mainSection2 {
             text-align: start;
-            margin-left: 3rem;
-            margin-right: 3rem;
-
+            margin-left: 5rem;
+            margin-right: 5rem;
+            
             .Section2b {
                 text-align: start;
             }

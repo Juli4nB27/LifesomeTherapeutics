@@ -1,0 +1,100 @@
+main {
+    .mainTecnology1 {
+        display: flex;
+        justify-content: center;
+        margin: 3rem 3rem 0rem 3rem;
+
+        .h1mainTecnology1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: start;
+            font-size: 1.2rem;
+            margin: 3rem 3rem 1rem 3rem;
+
+            .pMainTecnology1 {
+                padding-top: 0.5rem;
+
+                @include media-up(md) {
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+
+    .mainSection3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+
+        .divTumorCells {
+            
+            @media only screen and (min-width:760px){
+                .tumorCellsMobile {
+                    display: none;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 25vw;
+                }
+                .tumorCells {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 70vw;
+                }
+            }
+            @media only screen and (max-width:761px){
+                .tumorCellsMobile {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 30vw;
+                }
+                .tumorCells {
+                    display: none;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 70vw;
+                }
+            }
+
+            
+        }
+    }
+
+    .divSection3 {
+        margin: 3rem 3rem 0rem 3rem;
+
+        .pMainTecnology2 {
+            text-align: center;
+            font-size: 1.2rem;
+            margin: 0rem 3rem 1rem 3rem;
+        }
+    }
+
+    .main3Tecnology {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .EmbudoTest {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 70vw;
+            margin: 1rem 1rem 1rem 3rem;
+
+            .imgEmbudoTest {
+                width: 40vw;
+            }
+        }
+    }
+
+    .pMainTecnology3 {
+        display: flex;
+        text-align: center;
+        margin: 1rem 5rem 0rem 5rem;
+        font-size: 1.2rem;
+    }
+}

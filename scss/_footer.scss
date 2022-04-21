@@ -30,38 +30,33 @@ footer {
                 flex-direction: row;
                 align-content: flex-start;
                 margin: 0rem 1rem 1rem 3rem;
-
-                .instagram {
-                    a {
-                        .instagramFooter {
-                            background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-                            padding: 11px 0.1px;
-                            border-radius: 30%;
-                            color: rgba(255, 255, 255, 0.934);
-                        }
+                
+                a {
+                    .instagramFooter {
+                        background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+                        padding: 10px 0.1px;
+                        border-radius: 30%;
+                        color: rgba(255, 255, 255, 0.934);
                     }
                 }
 
-                .twitter {
-                    a {
-                        .twitterFooter {
-                            color: #00acee;
-                            background-color: white;
-                            padding: 11px 0.1px;
-                        }
+                a {
+                    .twitterFooter {
+                        color: #00acee;
+                        background-color: white;
+                        padding: 10px 0.1px;
                     }
                 }
 
-                .facebook {
-                    a {
-                        .facebookFooter {
-                            color: #3b5998;
-                            background-color: white;
-                            padding: 12px 0.1px;
-                            border-radius: 10%;
-                        }
+                a {
+                    .facebookFooter {
+                        color: #3b5998;
+                        background-color: white;
+                        padding: 10px 0.1px;
+                        border-radius: 10%;
                     }
                 }
+
             }
         }
     }
@@ -78,11 +73,9 @@ footer {
             margin: 0rem 3rem 1rem 1rem;
             padding-bottom: 1rem;
 
-            h4 {
-                h5 {}
-            }
-
             .masInfFooter {
+                margin: 5rem 0rem 0rem 0rem;
+
                 h4 {
                     h5 {
                         display: flex;
