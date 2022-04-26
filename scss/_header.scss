@@ -1,6 +1,7 @@
 @import "mainPages/breakPoints";
 
 header {
+    background-image: url(../img/fondopantalla.png);
     .mobile {
         @include media-up(md) {
             display: none;
@@ -9,6 +10,7 @@ header {
 
     .escritorio {
         display: none;
+
         @include media-up(md) {
             display: block;
         }
@@ -21,6 +23,7 @@ header {
                     li {
                         display: flex;
                         justify-content: center;
+
                         img {
                             width: 25vw;
                         }

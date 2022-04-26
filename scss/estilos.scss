@@ -1,9 +1,12 @@
+//Estilos generales
 @import "header";
 @import "footer";
 
+//Variablres
 @import "mainPages/breakPoints";
+@import "variables";
 
-
+//Estilos paginas
 @import "mainPages/index";
 @import "mainPages/tecnology";
 @import "mainPages/company";
@@ -13,28 +16,35 @@
 @import "mainPages/resources";
 
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
-.header{
+body {
+    color: $colorBody;
+}
+
+.header {
     height: 25rem;
     background-image: url(../img/fondopantalla.png);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: $colorMenu;
 }
 
-.b-color{
+.b-color {
     background-color: white;
 }
-.navbar-light .navbar-brand{
+
+.navbar-light .navbar-brand {
     color: white;
 }
-.navbar{
+
+.navbar {
     background-image: url(../img/fondopantalla.png);
 }

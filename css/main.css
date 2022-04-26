@@ -1,58 +1,56 @@
-@media screen and (min-width: 768px) {
-  header .mobile {
-    display: none; } }
-
-header .escritorio {
-  display: none; }
+header {
+  background-image: url(../img/fondopantalla.png); }
   @media screen and (min-width: 768px) {
-    header .escritorio {
-      display: block; } }
-
-header nav ul .logo a li {
-  display: flex;
-  justify-content: center; }
-  header nav ul .logo a li img {
-    width: 25vw; }
-
-header nav ul .menu1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  color: white;
-  list-style: none;
-  text-decoration: none;
-  flex-direction: row; }
-  header nav ul .menu1 a {
+    header .mobile {
+      display: none; } }
+  header .escritorio {
+    display: none; }
+    @media screen and (min-width: 768px) {
+      header .escritorio {
+        display: block; } }
+  header nav ul .logo a li {
     display: flex;
+    justify-content: center; }
+    header nav ul .logo a li img {
+      width: 25vw; }
+  header nav ul .menu1 {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     color: white;
     list-style: none;
     text-decoration: none;
-    padding: 0.9rem; }
-    @media screen and (min-width: 768px) {
-      header nav ul .menu1 a {
-        display: flex;
-        justify-content: center;
-        color: white;
-        list-style: none;
-        text-decoration: none;
-        font-size: 1.2rem; } }
-    header nav ul .menu1 a li {
+    flex-direction: row; }
+    header nav ul .menu1 a {
       display: flex;
-      align-items: center; }
-
-header .title {
-  color: white;
-  font-size: 3rem;
-  padding: 0.3rem;
-  margin-left: 5vw;
-  text-align: center; }
-  @media screen and (min-width: 768px) {
-    header .title {
+      justify-content: center;
       color: white;
-      font-size: 3rem;
-      margin: 3rem 3rem;
-      padding: 0.3rem; } }
+      list-style: none;
+      text-decoration: none;
+      padding: 0.9rem; }
+      @media screen and (min-width: 768px) {
+        header nav ul .menu1 a {
+          display: flex;
+          justify-content: center;
+          color: white;
+          list-style: none;
+          text-decoration: none;
+          font-size: 1.2rem; } }
+      header nav ul .menu1 a li {
+        display: flex;
+        align-items: center; }
+  header .title {
+    color: white;
+    font-size: 3rem;
+    padding: 0.3rem;
+    margin-left: 5vw;
+    text-align: center; }
+    @media screen and (min-width: 768px) {
+      header .title {
+        color: white;
+        font-size: 3rem;
+        margin: 3rem 3rem;
+        padding: 0.3rem; } }
 
 footer {
   color: black;
@@ -316,14 +314,17 @@ main .pMainTecnology3 {
 
 main .mainCompany1 {
   display: flex;
-  text-align: start; }
+  text-align: start;
+  flex-direction: column;
+  text-align: center;
+  margin: 3rem; }
   main .mainCompany1 .h3mainCompany1 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 3rem 3rem 0rem 3rem;
     padding-top: 4rem;
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    font-weight: bold; }
     @media screen and (min-width: 768px) {
       main .mainCompany1 .h3mainCompany1 {
         display: flex;
@@ -337,8 +338,7 @@ main .mainCompany2 {
   grid-auto-rows: 1fr 6rem 1fr;
   gap: 0.2rem;
   justify-items: center;
-  background-color: #6e1423;
-  margin: 3rem; }
+  background-color: #6e1423; }
   @media screen and (min-width: 768px) {
     main .mainCompany2 {
       display: grid;
@@ -346,8 +346,7 @@ main .mainCompany2 {
       grid-auto-rows: 1fr 6rem 1fr;
       gap: 0.1rem;
       justify-items: center;
-      background-color: #6e1423;
-      margin: 4rem; } }
+      background-color: #6e1423; } }
   main .mainCompany2 .secDosIzqArriba {
     grid-column: 1/2;
     grid-row: 1/3;
@@ -368,14 +367,14 @@ main .mainCompany2 {
     main .mainCompany2 .secDosIzqAbajo .imgSecDosIzqAbajo {
       width: 35vw;
       align-items: center;
-      margin: 2rem 0rem 1rem 0rem; }
+      margin: 0.3rem 0rem 1rem 0rem; }
   main .mainCompany2 .secDosDrchArriba {
     grid-column: 2/3;
     grid-row: 1/2; }
     main .mainCompany2 .secDosDrchArriba .imgSecDosDrchArriba {
       width: 35vw;
       align-content: center;
-      margin-top: 1rem; }
+      margin: 1.5rem 0rem 1rem 0rem; }
       @media screen and (min-width: 768px) {
         main .mainCompany2 .secDosDrchArriba .imgSecDosDrchArriba {
           margin-top: 2.2rem; } }
@@ -397,7 +396,7 @@ main .mainCompany2 {
           width: 35vw;
           margin-bottom: 1rem; } }
     main .mainCompany2 .secDosDrchAbajo .pSecDosDrchAbajo {
-      margin: 0rem 2rem 1rem 2rem; }
+      margin: 1rem 2rem 1rem 2rem; }
 
 main .mainCompany3 {
   display: flex;
@@ -423,7 +422,8 @@ main .mainCompany3 {
         flex-direction: column;
         margin-right: 1rem;
         background-color: #6e1423;
-        border-radius: 10px; } }
+        border-radius: 10px;
+        margin-top: 3rem; } }
     main .mainCompany3 .secTres1-3 .img-1-3 {
       display: flex;
       width: 40vw;
@@ -471,7 +471,8 @@ main .mainCompany3 {
         flex-direction: column;
         margin-right: 1rem;
         background-color: #6e1423;
-        border-radius: 10px; } }
+        border-radius: 10px;
+        margin-top: 3rem; } }
     main .mainCompany3 .secTres2-3 .img-2-3 {
       display: flex;
       width: 40vw;
@@ -514,7 +515,8 @@ main .mainCompany3 {
         display: flex;
         flex-direction: column;
         background-color: #6e1423;
-        border-radius: 10px; } }
+        border-radius: 10px;
+        margin-top: 3rem; } }
     main .mainCompany3 .secTres3-3 .img-3-3 {
       display: flex;
       width: 40vw;
@@ -548,13 +550,17 @@ main .mainCompany3 {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif; }
 
+body {
+  color: black; }
+
 .header {
   height: 25rem;
   background-image: url(../img/fondopantalla.png);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  color: white; }
 
 .b-color {
   background-color: white; }
