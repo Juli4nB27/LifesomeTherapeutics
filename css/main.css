@@ -1,56 +1,58 @@
-header {
-  background-image: url(../img/fondopantalla.png); }
+@media screen and (min-width: 768px) {
+  header .mobile {
+    display: none; } }
+
+header .escritorio {
+  display: none; }
   @media screen and (min-width: 768px) {
-    header .mobile {
-      display: none; } }
-  header .escritorio {
-    display: none; }
-    @media screen and (min-width: 768px) {
-      header .escritorio {
-        display: block; } }
-  header nav ul .logo a li {
+    header .escritorio {
+      display: block; } }
+
+header nav ul .logo a li {
+  display: flex;
+  justify-content: center; }
+  header nav ul .logo a li img {
+    width: 25vw; }
+
+header nav ul .menu1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  flex-direction: row; }
+  header nav ul .menu1 a {
     display: flex;
-    justify-content: center; }
-    header nav ul .logo a li img {
-      width: 25vw; }
-  header nav ul .menu1 {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     color: white;
     list-style: none;
     text-decoration: none;
-    flex-direction: row; }
-    header nav ul .menu1 a {
-      display: flex;
-      justify-content: center;
-      color: white;
-      list-style: none;
-      text-decoration: none;
-      padding: 0.9rem; }
-      @media screen and (min-width: 768px) {
-        header nav ul .menu1 a {
-          display: flex;
-          justify-content: center;
-          color: white;
-          list-style: none;
-          text-decoration: none;
-          font-size: 1.2rem; } }
-      header nav ul .menu1 a li {
-        display: flex;
-        align-items: center; }
-  header .title {
-    color: white;
-    font-size: 3rem;
-    padding: 0.3rem;
-    margin-left: 5vw;
-    text-align: center; }
+    padding: 0.9rem; }
     @media screen and (min-width: 768px) {
-      header .title {
+      header nav ul .menu1 a {
+        display: flex;
+        justify-content: center;
         color: white;
-        font-size: 3rem;
-        margin: 3rem 3rem;
-        padding: 0.3rem; } }
+        list-style: none;
+        text-decoration: none;
+        font-size: 1.2rem; } }
+    header nav ul .menu1 a li {
+      display: flex;
+      align-items: center; }
+
+header .title {
+  color: white;
+  font-size: 3rem;
+  padding: 0.3rem;
+  margin-left: 5vw;
+  text-align: center; }
+  @media screen and (min-width: 768px) {
+    header .title {
+      color: white;
+      font-size: 3rem;
+      margin: 3rem 3rem;
+      padding: 0.3rem; } }
 
 footer {
   color: black;
@@ -103,6 +105,20 @@ footer {
           display: flex;
           flex-direction: column; }
 
+.contenedor, main .parrafo1 .mainParrafo1 {
+  margin: 3rem 5rem 3rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white; }
+
+.contenedor, main .parrafo1 .mainParrafo1 {
+  margin: 3rem 5rem 3rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white; }
+
 main .mainSubtitulo {
   text-align: center;
   margin: 6rem 3rem 3rem 3rem;
@@ -117,24 +133,16 @@ main .mainSubtitulo {
       font-size: 1.2rem; } }
 
 main .parrafo1 .mainParrafo1 {
-  display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
-  align-items: center;
-  margin: 3rem 5rem 3rem 5rem;
   padding: 1rem;
   text-align: center;
-  justify-content: center;
   background-color: #641220; }
   @media screen and (min-width: 768px) {
     main .parrafo1 .mainParrafo1 {
-      display: flex;
       flex-wrap: nowrap;
       flex-direction: row;
-      align-items: center;
-      margin: 3rem 5rem 3rem 5rem;
       text-align: start;
-      justify-content: center;
       background-color: #641220;
       font-size: 1.1rem; } }
   main .parrafo1 .mainParrafo1 .imgBioquimica {
@@ -219,6 +227,7 @@ main .parrafo4 .mainParrafo4 {
   @media screen and (min-width: 768px) {
     main .parrafo4 .mainParrafo4 {
       display: flex;
+      align-items: center;
       flex-wrap: nowrap;
       font-size: 1.1rem;
       margin: 3rem 5rem 3rem 5rem; } }
@@ -268,7 +277,7 @@ main .mainSection3 {
       display: none;
       flex-direction: column;
       align-items: center;
-      width: 25vw; }
+      width: 50vw; }
     main .mainSection3 .divTumorCells .tumorCells {
       display: flex;
       flex-direction: column;
@@ -279,7 +288,7 @@ main .mainSection3 {
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 30vw; }
+      width: 50vw; }
     main .mainSection3 .divTumorCells .tumorCells {
       display: none;
       flex-direction: column;
@@ -303,8 +312,12 @@ main .main3Tecnology {
     flex-direction: column;
     width: 70vw;
     margin: 1rem 1rem 1rem 3rem; }
-    main .main3Tecnology .EmbudoTest .imgEmbudoTest {
-      width: 40vw; }
+    @media only screen and (min-width: 760px) {
+      main .main3Tecnology .EmbudoTest .imgEmbudoTest {
+        width: 40vw; } }
+    @media only screen and (max-width: 761px) {
+      main .main3Tecnology .EmbudoTest .imgEmbudoTest {
+        width: 70vw; } }
 
 main .pMainTecnology3 {
   display: flex;
@@ -565,8 +578,16 @@ body {
 .b-color {
   background-color: white; }
 
-.navbar-light .navbar-brand {
+.navbar-light .navbar-nav .nav-link {
+  color: white; }
+
+.navbar-light .navbar-nav .nav-link.active {
   color: white; }
 
 .navbar {
   background-image: url(../img/fondopantalla.png); }
+  .navbar .logoMobile {
+    width: 100%;
+    min-width: 150px;
+    max-width: 150px;
+    margin-left: 1rem; }

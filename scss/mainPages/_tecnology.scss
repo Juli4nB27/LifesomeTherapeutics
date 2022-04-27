@@ -35,7 +35,7 @@ main {
                     display: none;
                     flex-direction: column;
                     align-items: center;
-                    width: 25vw;
+                    width: 50vw;
                 }
                 .tumorCells {
                     display: flex;
@@ -49,7 +49,7 @@ main {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    width: 30vw;
+                    width: 50vw;
                 }
                 .tumorCells {
                     display: none;
@@ -84,9 +84,16 @@ main {
             flex-direction: column;
             width: 70vw;
             margin: 1rem 1rem 1rem 3rem;
-
-            .imgEmbudoTest {
-                width: 40vw;
+            
+            @media only screen and (min-width:760px){
+                .imgEmbudoTest {
+                    width: 40vw;
+                }
+            }
+            @media only screen and (max-width:761px){
+                .imgEmbudoTest {
+                    width: 70vw;
+                }
             }
         }
     }

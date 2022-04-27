@@ -1,3 +1,5 @@
+@import "variables";
+
 main {
     .mainSubtitulo {
         text-align: center;
@@ -16,24 +18,18 @@ main {
 
     .parrafo1 {
         .mainParrafo1 {
-            display: flex;
+            @extend .contenedor;
             flex-wrap: wrap;
             flex-direction: row-reverse;
-            align-items: center;
-            margin: 3rem 5rem 3rem 5rem;
             padding: 1rem;
             text-align: center;
-            justify-content: center;
             background-color: #641220;
 
             @include media-up(md) {
-                display: flex;
+                @extend .contenedor;
                 flex-wrap: nowrap;
                 flex-direction: row;
-                align-items: center;
-                margin: 3rem 5rem 3rem 5rem;
                 text-align: start;
-                justify-content: center;
                 background-color: #641220;
                 font-size: 1.1rem;
             }
@@ -53,25 +49,19 @@ main {
 
     .parrafo2 {
         .mainParrafo2 {
-            display: flex;
+            @extend .contenedor;
             flex-wrap: wrap;
             flex-direction: row-reverse;
-            align-items: center;
-            margin: 3rem 5rem 3rem 5rem;
             padding: 1rem;
             text-align: center;
-            justify-content: center;
             background-color: #85182a;
 
             @include media-up(md) {
-                display: flex;
+                @extend .contenedor;
                 flex-wrap: nowrap;
                 flex-direction: row-reverse;
-                align-items: center;
-                margin: 3rem 5rem 3rem 5rem;
                 padding-left: 1rem;
                 text-align: start;
-                justify-content: center;
                 background-color: #85182a;
                 font-size: 1.1rem;
             }
@@ -91,24 +81,18 @@ main {
 
     .parrafo3 {
         .mainParrafo3 {
-            display: flex;
+            @extend .contenedor;
             flex-wrap: wrap;
             flex-direction: row-reverse;
-            align-items: center;
-            margin: 3rem 5rem 3rem 5rem;
             padding: 1rem;
             text-align: center;
-            justify-content: center;
             background-color: #a71e34;
 
             @include media-up(md) {
-                display: flex;
+                @extend .contenedor;
                 flex-wrap: nowrap;
                 flex-direction: row;
-                align-items: center;
-                margin: 3rem 5rem 3rem 5rem;
                 text-align: start;
-                justify-content: center;
                 background-color: #a71e34;
                 font-size: 1.1rem;
             }
@@ -119,7 +103,6 @@ main {
                 @include media-up(md) {
                     width: 15vw;
                     justify-content: center;
-
                     padding: 1rem;
                 }
             }
@@ -128,21 +111,18 @@ main {
 
     .parrafo4 {
         .mainParrafo4 {
-            display: flex;
+            @extend .contenedor;
             flex-wrap: wrap;
             flex-direction: row-reverse;
-            align-items: center;
-            margin: 3rem 5rem 3rem 5rem;
             padding: 1rem;
             text-align: center;
-            justify-content: center;
             background-color: #ce1934;
 
             @include media-up(md) {
-                display: flex;
+                @extend .contenedor;
                 flex-wrap: nowrap;
+                text-align: center;
                 font-size: 1.1rem;
-                margin: 3rem 5rem 3rem 5rem;
             }
 
             .imgEstMolecular {

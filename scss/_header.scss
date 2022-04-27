@@ -1,7 +1,6 @@
 @import "mainPages/breakPoints";
 
 header {
-    background-image: url(../img/fondopantalla.png);
     .mobile {
         @include media-up(md) {
             display: none;

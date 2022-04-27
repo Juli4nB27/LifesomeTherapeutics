@@ -6,6 +6,7 @@
 @import "mainPages/breakPoints";
 @import "variables";
 
+
 //Estilos paginas
 @import "mainPages/index";
 @import "mainPages/tecnology";
@@ -41,10 +42,19 @@ body {
     background-color: white;
 }
 
-.navbar-light .navbar-brand {
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link.active{
     color: white;
 }
 
 .navbar {
     background-image: url(../img/fondopantalla.png);
+    .logoMobile{
+        width: 100%;
+        min-width: 150px;
+        max-width: 150px;
+        margin-left: 1rem;
+    }
 }
