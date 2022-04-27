@@ -105,19 +105,17 @@ footer {
           display: flex;
           flex-direction: column; }
 
-.contenedor, main .parrafo1 .mainParrafo1 {
+.contenedor, main .parrafo1 .mainParrafo1, main .parrafo2 .mainParrafo2, main .parrafo3 .mainParrafo3, main .parrafo4 .mainParrafo4 {
   margin: 3rem 5rem 3rem 5rem;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: white; }
+  justify-content: center; }
 
-.contenedor, main .parrafo1 .mainParrafo1 {
+.contenedor, main .parrafo1 .mainParrafo1, main .parrafo2 .mainParrafo2, main .parrafo3 .mainParrafo3, main .parrafo4 .mainParrafo4 {
   margin: 3rem 5rem 3rem 5rem;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: white; }
+  justify-content: center; }
 
 main .mainSubtitulo {
   text-align: center;
@@ -155,25 +153,17 @@ main .parrafo1 .mainParrafo1 {
         padding: 1rem; } }
 
 main .parrafo2 .mainParrafo2 {
-  display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
-  align-items: center;
-  margin: 3rem 5rem 3rem 5rem;
   padding: 1rem;
   text-align: center;
-  justify-content: center;
   background-color: #85182a; }
   @media screen and (min-width: 768px) {
     main .parrafo2 .mainParrafo2 {
-      display: flex;
       flex-wrap: nowrap;
       flex-direction: row-reverse;
-      align-items: center;
-      margin: 3rem 5rem 3rem 5rem;
       padding-left: 1rem;
       text-align: start;
-      justify-content: center;
       background-color: #85182a;
       font-size: 1.1rem; } }
   main .parrafo2 .mainParrafo2 .imgQuimica {
@@ -186,24 +176,16 @@ main .parrafo2 .mainParrafo2 {
         padding: 1rem; } }
 
 main .parrafo3 .mainParrafo3 {
-  display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
-  align-items: center;
-  margin: 3rem 5rem 3rem 5rem;
   padding: 1rem;
   text-align: center;
-  justify-content: center;
   background-color: #a71e34; }
   @media screen and (min-width: 768px) {
     main .parrafo3 .mainParrafo3 {
-      display: flex;
       flex-wrap: nowrap;
       flex-direction: row;
-      align-items: center;
-      margin: 3rem 5rem 3rem 5rem;
       text-align: start;
-      justify-content: center;
       background-color: #a71e34;
       font-size: 1.1rem; } }
   main .parrafo3 .mainParrafo3 .imgMolecular {
@@ -215,22 +197,16 @@ main .parrafo3 .mainParrafo3 {
         padding: 1rem; } }
 
 main .parrafo4 .mainParrafo4 {
-  display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
-  align-items: center;
-  margin: 3rem 5rem 3rem 5rem;
   padding: 1rem;
   text-align: center;
-  justify-content: center;
   background-color: #ce1934; }
   @media screen and (min-width: 768px) {
     main .parrafo4 .mainParrafo4 {
-      display: flex;
-      align-items: center;
       flex-wrap: nowrap;
-      font-size: 1.1rem;
-      margin: 3rem 5rem 3rem 5rem; } }
+      text-align: center;
+      font-size: 1.1rem; } }
   main .parrafo4 .mainParrafo4 .imgEstMolecular {
     width: 15vw; }
     @media screen and (min-width: 768px) {
