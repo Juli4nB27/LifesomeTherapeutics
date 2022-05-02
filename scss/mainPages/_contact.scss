@@ -1,0 +1,90 @@
+.seccion3 {
+    margin: 4rem;
+    padding-bottom: 10rem;
+    .lineTContactanos{
+        border-bottom: 3px solid #3196F5;
+        .tContactanos {
+            text-align: center;
+            margin: 5rem 0rem 0rem 0rem;
+            font-size: 3rem;
+        }
+    }
+    
+    .padreSeccion3 {
+        padding: 6rem 0rem 6rem 0rem ;
+        flex-direction: column;
+        align-items: center;
+        @include media-up(md) {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+
+        @include media-up(lg) {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+
+        .pContactanos {
+            padding: 1rem;
+
+            hr {
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        .formulario {
+            width: 100%;
+            max-width: 600px;
+            padding: 1rem;
+
+            div {
+                margin-bottom: 1rem;
+
+                .paddingInput {
+                    width: 100%;
+                    height: 2rem;
+                    padding: 1rem;
+                }
+
+                textarea {
+                    width: 100%;
+                    height: 2rem;
+                    min-height: 4rem;
+                    max-height: 6rem;
+                }
+
+                input {
+                    width: 100%;
+                }
+                .botonContacto{
+                    border-radius: 13rem;
+                    border-color: transparent;
+                    border-radius:15px;
+                    background-color:#3196F5 ;
+                    &:hover{
+                        background-color:#0e78da ;
+                        box-shadow: 1px 4px 13px -2px;
+                        transition: 0.5s ease-in-out;
+                    }
+                    
+                }
+                .paddingInput{
+                    border-radius: 10rem;
+                    border-color: black;
+                }
+                .paddingInputText{
+                    width: 100%;
+                    height: 2rem;
+                    padding: 1rem;
+                    border-radius: 25px;
+                    border: 2px black solid;
+                }
+            }
+        }
+        
+    }
+}

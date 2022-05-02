@@ -2,80 +2,123 @@ footer {
     color: black;
     background-color: #7ECFE6;
     font-weight: 1rem;
+
     .tituloFooter {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin: 3rem 1rem 2rem 4rem;
+        margin: 3rem 1rem 2rem 1rem;
         padding: 2rem 0rem 0rem 0rem;
 
-        .tFooter {
-            .eslogan {
-                margin: 0.5rem 0rem 0rem 0rem;
+        @include media-up(md) {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 3rem 1rem 2rem 4rem;
+            padding: 2rem 0rem 0rem 0rem;
+
+            .tFooter {
+                .eslogan {
+                    margin: 0.5rem 0rem 0rem 1rem;
+                }
             }
         }
     }
+
     .secDosFooter {
         div {
             .h4Redes {
                 display: flex;
                 flex-direction: row;
                 align-content: flex-start;
-                margin: 0rem 0rem 0rem 4rem;
+                margin: 0rem 0rem 0rem 1.1rem;
+
+                @include media-up(md) {
+                    display: flex;
+                    flex-direction: row;
+                    align-content: flex-start;
+                    margin: 0rem 0rem 0rem 4rem;
+                }
             }
 
             .redesFooter {
                 display: flex;
                 flex-direction: row;
                 align-content: flex-start;
-                margin: 0rem 1rem 1rem 3rem;
+                margin: 0rem 1rem 1rem 1.1rem;
                 gap: 1rem;
-                a {
-                    .instagramFooter {
-                        width: 1vw;
-                    }
-                }
 
-                a {
-                    .twitterFooter {
-                        width: 1vw; 
-                    }
-                }
+                @include media-up(md) {
+                    display: flex;
+                    flex-direction: row;
+                    align-content: flex-start;
+                    margin: 0rem 1rem 1rem 3rem;
+                    gap: 1rem;
 
-                a {
-                    .facebookFooter {
-                        width: 1vw;
+                    a {
+                        .instagramFooter {
+                            width: 1vw;
+                        }
                     }
-                }
 
-                a {
-                    .linkedinFooter {
-                        width: 1vw;
+                    a {
+                        .twitterFooter {
+                            width: 1vw;
+                        }
+                    }
+
+                    a {
+                        .facebookFooter {
+                            width: 1vw;
+                        }
+                    }
+
+                    a {
+                        .linkedinFooter {
+                            width: 1vw;
+                        }
                     }
                 }
             }
         }
     }
+
     .contacInfFooter {
         display: flex;
         flex-direction: column;
-        margin: 1rem 2rem 0rem 4rem;
+        margin: 0rem 0rem 0rem 1rem;
+
+        @include media-up(md) {
+            display: flex;
+            flex-direction: column;
+            margin: 1rem 2rem 0rem 4rem;
+        }
 
         .contactosInfFooter {
             display: flex;
             flex-direction: column;
             text-align: end;
-            margin: 0rem 3rem 1rem 1rem;
+            margin: 0rem 2rem 0rem 0rem;
             padding-bottom: 1rem;
-                h4 {
-                    h5 {
-                        display: flex;
-                        flex-direction: column;
-                    }
+
+            @include media-up(md) {
+                display: flex;
+                flex-direction: column;
+                text-align: end;
+                margin: 0rem 3rem 1rem 1rem;
+                padding-bottom: 1rem;
+            }
+
+            h4 {
+                h5 {
+                    display: flex;
+                    flex-direction: column;
                 }
             }
         }
     }
+}
+
 .footFooter {
     display: flex;
     flex-direction: column;
@@ -88,6 +131,6 @@ footer {
 }
 
 .footFooter h4 {
-    font-size: 0.8rem; 
-    
+    font-size: 0.8rem;
+
 }

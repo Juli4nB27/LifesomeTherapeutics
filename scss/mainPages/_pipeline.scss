@@ -8,39 +8,60 @@ th, td{
 
 .barProgress{
     padding-left: 0px;
+    .prgress{
+        background-color: transparent;
+        .progress-bar1{
+            height: 3rem;
+            width:49%;
+            background-color: #3fccf3;
+            border-top-right-radius: 2rem;
+            border-bottom-right-radius: 2rem;
+        }
+        .progress-bar2{
+            height: 3rem;
+            width: 80%;
+            background-color: #097998;
+            border-top-right-radius: 2rem;
+            border-bottom-right-radius: 2rem;
+        }
+    }
 }
-.prgress{
-    background-color: transparent;
-}
-.progress-bar1{
-    height: 3rem;
-    width:49%;
-    background-color: #3fccf3;
-    border-top-right-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-}
-.progress-bar2{
-    height: 3rem;
-    width: 80%;
-    background-color: #097998;
-    border-top-right-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-}
+
 .primerProducto{
-    margin: 3rem 4rem 3rem 4rem;
+    margin: 3rem 3rem 3rem 3rem;
     overflow-x: auto;
+    @include media-up(md){
+        margin: 3rem 9rem 3rem 9rem;
+        overflow-x: auto;
+    }
 }
 .pPrimerProducto{
-    margin: 3rem 4rem 3rem 3rem;
+    margin: 3rem 3rem 3rem 3rem;
     text-align: center;
+    padding: 1rem;
+    @include media-up(md){
+        margin: 3rem 9rem 3rem 7rem;
+        text-align: center;
+        padding: 1rem;
+    }
 }
 .segundoProducto{
-    margin: 10rem 4rem 3rem 4rem;
+    margin: 3rem 3rem 3rem 3rem;
     overflow-x: auto;
+    @include media-up(md){
+        margin: 3rem 9rem 3rem 9rem;
+        overflow-x: auto;
+    }
 }
 .pSegundoProducto{
-    margin: 3rem 4rem 3rem 3rem;
+    margin: 3rem 3rem 3rem 3rem;
     text-align: center;
+    padding: 1rem;
+    @include media-up(md){
+        margin: 3rem 9rem 3rem 7rem;
+        text-align: center;
+        padding: 1rem;
+    }
 }
 .col_1{
     background-color: rgb(138, 138, 138);
@@ -51,4 +72,3 @@ th, td{
 th{
     background-color: #7ECFE6;
 }
-
