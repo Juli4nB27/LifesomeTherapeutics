@@ -10,7 +10,7 @@ main {
             justify-content: center;
             text-align: start;
             font-size: 1.2rem;
-            margin: 3rem 3rem 1rem 3rem;
+            margin: 3rem 3rem 5rem 3rem;
 
             .pMainTecnology1 {
                 padding-top: 0.5rem;
@@ -24,10 +24,13 @@ main {
 
     .mainSection3 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         text-align: center;
-
+        align-items: center;
+        background-color: #52a7c1;
+        background-image: linear-gradient(315deg, #52a7c1 0%, #b3f6d8 74%);
+        margin-bottom: 4rem;
         .divTumorCells {
             
             @media only screen and (min-width:760px){
@@ -50,6 +53,7 @@ main {
                     flex-direction: column;
                     align-items: center;
                     width: 50vw;
+                    margin-top: 3rem;
                 }
                 .tumorCells {
                     display: none;
@@ -64,7 +68,7 @@ main {
     }
 
     .divSection3 {
-        margin: 3rem 3rem 0rem 3rem;
+        margin: 3rem 3rem 3rem 3rem;
 
         .pMainTecnology2 {
             text-align: center;
@@ -82,17 +86,19 @@ main {
             display: flex;
             align-items: center;
             flex-direction: column;
-            width: 70vw;
-            margin: 1rem 1rem 1rem 3rem;
+            width: 50vw;
+            margin: 1rem 1rem 1rem 0rem;
             
             @media only screen and (min-width:760px){
                 .imgEmbudoTest {
-                    width: 40vw;
+                    width: 20vw;
+                    align-items: center;
                 }
             }
             @media only screen and (max-width:761px){
                 .imgEmbudoTest {
-                    width: 70vw;
+                    width: 40vw;
+                    align-items: center;
                 }
             }
         }

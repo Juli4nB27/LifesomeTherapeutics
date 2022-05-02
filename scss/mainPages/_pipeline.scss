@@ -1,6 +1,5 @@
 table,tr ,th ,td {
     border: 1px solid black;
-    border-collapse: collapse;
 }
 th, td{
     padding: 0.9rem;
@@ -28,18 +27,20 @@ th, td{
     border-bottom-right-radius: 2rem;
 }
 .primerProducto{
-    margin: 3rem 0rem 3rem 4rem;
+    margin: 3rem 4rem 3rem 4rem;
     overflow-x: auto;
 }
 .pPrimerProducto{
     margin: 3rem 4rem 3rem 3rem;
+    text-align: center;
 }
 .segundoProducto{
-    margin: 10rem 0rem 3rem 4rem;
+    margin: 10rem 4rem 3rem 4rem;
     overflow-x: auto;
 }
 .pSegundoProducto{
     margin: 3rem 4rem 3rem 3rem;
+    text-align: center;
 }
 .col_1{
     background-color: rgb(138, 138, 138);

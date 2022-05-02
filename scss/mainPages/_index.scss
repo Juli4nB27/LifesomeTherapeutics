@@ -23,14 +23,14 @@ main {
             flex-direction: row-reverse;
             padding: 1rem;
             text-align: center;
-            background-color: #641220;
+            background-color: #90E3FC;
 
             @include media-up(md) {
 
                 flex-wrap: nowrap;
                 flex-direction: row;
                 text-align: start;
-                background-color: #641220;
+                background-color: #90E3FC;
                 font-size: 1.1rem;
             }
 
@@ -54,7 +54,7 @@ main {
             flex-direction: row-reverse;
             padding: 1rem;
             text-align: center;
-            background-color: #85182a;
+            background-color: #89D8F0;
 
             @include media-up(md) {
 
@@ -62,7 +62,7 @@ main {
                 flex-direction: row-reverse;
                 padding-left: 1rem;
                 text-align: start;
-                background-color: #85182a;
+                background-color: #89D8F0;
                 font-size: 1.1rem;
             }
 
@@ -86,14 +86,14 @@ main {
             flex-direction: row-reverse;
             padding: 1rem;
             text-align: center;
-            background-color: #a71e34;
+            background-color: #7AC1D6;
 
             @include media-up(md) {
 
                 flex-wrap: nowrap;
                 flex-direction: row;
                 text-align: start;
-                background-color: #a71e34;
+                background-color: #7AC1D6;
                 font-size: 1.1rem;
             }
 
@@ -116,10 +116,10 @@ main {
             flex-direction: row-reverse;
             padding: 1rem;
             text-align: center;
-            background-color: #ce1934;
+            background-color: #649EB0;
 
             @include media-up(md) {
-
+                background-color: #649EB0;
                 flex-wrap: nowrap;
                 text-align: center;
                 font-size: 1.1rem;
@@ -137,7 +137,7 @@ main {
     }
 
     .mainSectionFondo {
-        background-color: #780000;
+        background-color: #3A5C66;
         margin: 0rem;
         padding-bottom: 3rem;
         padding-top: 3rem;
