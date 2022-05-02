@@ -30,7 +30,7 @@ body {
 
 .header {
     height: 25rem;
-    background-image: url(../img/fondopantalla.png);
+    background-image:url(../img/FondoConDegradado.png);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,7 +50,7 @@ body {
 }
 
 .navbar {
-    background-image: url(../img/fondopantalla.png);
+    background-image:url(../img/FondoConDegradado.png);
     .logoMobile{
         width: 100%;
         min-width: 150px;

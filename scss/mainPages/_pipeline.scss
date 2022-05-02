@@ -1,0 +1,53 @@
+table,tr ,th ,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 0.9rem;
+    text-align: center;
+}
+
+.barProgress{
+    padding-left: 0px;
+}
+.prgress{
+    background-color: transparent;
+}
+.progress-bar1{
+    height: 3rem;
+    width:49%;
+    background-color: #3fccf3;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.progress-bar2{
+    height: 3rem;
+    width: 80%;
+    background-color: #097998;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.primerProducto{
+    margin: 3rem 0rem 3rem 4rem;
+    overflow-x: auto;
+}
+.pPrimerProducto{
+    margin: 3rem 4rem 3rem 3rem;
+}
+.segundoProducto{
+    margin: 10rem 0rem 3rem 4rem;
+    overflow-x: auto;
+}
+.pSegundoProducto{
+    margin: 3rem 4rem 3rem 3rem;
+}
+.col_1{
+    background-color: rgb(138, 138, 138);
+}
+.col_2{
+    background-color: rgb(138, 138, 138);
+}
+th{
+    background-color: #7ECFE6;
+}
+
