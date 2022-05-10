@@ -277,7 +277,10 @@ main .mainTecnology1 {
     justify-content: center;
     text-align: start;
     font-size: 1.2rem;
-    margin: 3rem 3rem 5rem 3rem; }
+    margin: 3rem 0rem 5rem 0rem; }
+    @media screen and (min-width: 768px) {
+      main .mainTecnology1 .h1mainTecnology1 {
+        margin: 3rem 3rem 5rem 3rem; } }
     main .mainTecnology1 .h1mainTecnology1 .pMainTecnology1 {
       padding-top: 0.5rem; }
       @media screen and (min-width: 768px) {
@@ -322,7 +325,10 @@ main .divSection3 {
   main .divSection3 .pMainTecnology2 {
     text-align: center;
     font-size: 1.2rem;
-    margin: 0rem 3rem 1rem 3rem; }
+    margin: 0rem 0rem 1rem 0rem; }
+    @media screen and (min-width: 768px) {
+      main .divSection3 .pMainTecnology2 {
+        margin: 0rem 3rem 1rem 3rem; } }
 
 main .main3Tecnology {
   display: flex;
@@ -346,8 +352,11 @@ main .main3Tecnology {
 main .pMainTecnology3 {
   display: flex;
   text-align: center;
-  margin: 1rem 5rem 0rem 5rem;
+  margin: 1rem 0rem 0rem 0rem;
   font-size: 1.2rem; }
+  @media screen and (min-width: 768px) {
+    main .pMainTecnology3 {
+      margin: 1rem 5rem 0rem 5rem; } }
 
 main .mainCompany1 {
   display: flex;
@@ -702,8 +711,11 @@ th {
             box-shadow: 1px 4px 13px -2px;
             transition: 0.5s ease-in-out; }
         .seccion3 .padreSeccion3 .formulario div .paddingInput {
-          border-radius: 10rem;
-          border-color: black; }
+          width: 100%;
+          height: 2rem;
+          padding: 1rem;
+          border-radius: 25px;
+          border: 2px black solid; }
         .seccion3 .padreSeccion3 .formulario div .paddingInputText {
           width: 100%;
           height: 2rem;

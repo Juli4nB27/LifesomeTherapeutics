@@ -73,8 +73,11 @@
                     
                 }
                 .paddingInput{
-                    border-radius: 10rem;
-                    border-color: black;
+                    width: 100%;
+                    height: 2rem;
+                    padding: 1rem;
+                    border-radius: 25px;
+                    border: 2px black solid;
                 }
                 .paddingInputText{
                     width: 100%;
