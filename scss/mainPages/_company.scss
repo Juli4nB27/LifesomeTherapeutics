@@ -4,7 +4,7 @@ main {
         text-align: start;
         flex-direction: column;
         text-align: center;
-        margin: 3rem;
+        margin: 0rem 5rem 3rem 5rem;
         .h3mainCompany1 {
             display: flex;
             flex-direction: column;
@@ -119,7 +119,7 @@ main {
         @include media-up(md) {
             display: flex;
             flex-direction: row;
-            margin: 3rem;
+            margin: 3rem 5rem 5rem 5rem;
             justify-content: center;
         }
 
@@ -185,8 +185,8 @@ main {
         .secTres2-3 {
             display: flex;
             flex-direction: column;
-            border: solid #3BC7FF;
-            background-color: #3A95DE;
+            border: solid #338DDE;
+            background-color: #51BCFA;
             padding: 1rem;
             align-items: center;
             border-radius: 20px;
@@ -195,7 +195,7 @@ main {
                 display: flex;
                 flex-direction: column;
                 margin-right: 1rem;
-                background-color:#3A95DE;
+                background-color:#51BCFA;
                 border-radius: 10px;
                 margin-top: 3rem;
             }
@@ -203,7 +203,7 @@ main {
             .img-2-3 {
                 display: flex;
                 width: 40vw;
-                background-color: #3BC7FF;
+                background-color: #338DDE;
                 padding: 0.2rem;
                 margin-bottom: 1rem;
                 border-radius: 20px;
@@ -211,7 +211,7 @@ main {
                     max-width: 25vw;
                     width: 25vw;
                     flex-direction: column;
-                    background-color: #3BC7FF;
+                    background-color: #338DDE;
                     border-radius: 20px;
                     padding: 0.2rem;
                 }
@@ -240,15 +240,15 @@ main {
         .secTres3-3 {
             display: flex;
             flex-direction: column;
-            border: solid #3DE5FF;
-            background-color:#3196F5;
+            border: solid #338DDE;
+            background-color:#51BCFA;
             padding: 1rem;
             align-items: center;
             border-radius: 20px;
             @include media-up(md) {
                 display: flex;
                 flex-direction: column;
-                background-color: #3196F5;
+                background-color: #51BCFA;
                 border-radius: 10px;
                 margin-top: 3rem;
             }
@@ -256,7 +256,7 @@ main {
             .img-3-3 {
                 display: flex;
                 width: 40vw;
-                background-color: #3DE5FF;
+                background-color: #338DDE;
                 border-radius: 20px;
                 padding: 0.2rem;
                 margin-bottom: 1rem;
@@ -266,7 +266,7 @@ main {
                     width: 25vw;
                     display: flex;
                     flex-direction: column;
-                    background-color: #3DE5FF;
+                    background-color: #338DDE;
                     border-radius: 20px;
                     padding: 0.2rem;
                 }
