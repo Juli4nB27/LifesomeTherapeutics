@@ -130,14 +130,14 @@ main {
             background-color: #51BCFA;
             padding: 1rem;
             align-items: center;
-            border-radius: 20px;
+            border-radius: 0px;
 
             @include media-up(md) {
                 display: flex;
                 flex-direction: column;
                 margin-right: 1rem;
                 background-color:#51BCFA;
-                border-radius: 10px;
+                border-radius: 0px;
                 margin-top: 3rem;
             }
 
@@ -145,7 +145,7 @@ main {
                 display: flex;
                 width: 40vw;
                 background-color: #338DDE;
-                border-radius: 20px;
+                border-radius: 0px;
                 padding: 0.2rem;
                 margin-bottom: 1rem;
 
@@ -189,14 +189,14 @@ main {
             background-color: #51BCFA;
             padding: 1rem;
             align-items: center;
-            border-radius: 20px;
+            border-radius: 0px;
 
             @include media-up(md) {
                 display: flex;
                 flex-direction: column;
                 margin-right: 1rem;
                 background-color:#51BCFA;
-                border-radius: 10px;
+                border-radius: 0px;
                 margin-top: 3rem;
             }
 
@@ -244,12 +244,12 @@ main {
             background-color:#51BCFA;
             padding: 1rem;
             align-items: center;
-            border-radius: 20px;
+            border-radius: 0px;
             @include media-up(md) {
                 display: flex;
                 flex-direction: column;
                 background-color: #51BCFA;
-                border-radius: 10px;
+                border-radius: 0px;
                 margin-top: 3rem;
             }
 

@@ -8,38 +8,41 @@ header .escritorio {
     header .escritorio {
       display: block; } }
 
-header nav ul .logo a li {
+header nav .contLogoMenu {
   display: flex;
-  justify-content: center; }
-  header nav ul .logo a li img {
-    width: 25vw; }
-
-header nav ul .menu1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  color: black;
-  list-style: none;
-  text-decoration: none;
-  flex-direction: row; }
-  header nav ul .menu1 a {
+  flex-direction: row;
+  justify-content: space-between; }
+  header nav .contLogoMenu .logo a li {
     display: flex;
+    justify-content: center; }
+    header nav .contLogoMenu .logo a li img {
+      width: 25vw; }
+  header nav .contLogoMenu .menu1 {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     color: black;
     list-style: none;
     text-decoration: none;
-    padding: 0.9rem; }
-    @media screen and (min-width: 768px) {
-      header nav ul .menu1 a {
-        display: flex;
-        justify-content: center;
-        color: black;
-        list-style: none;
-        text-decoration: none;
-        font-size: 1.2rem; } }
-    header nav ul .menu1 a li {
+    flex-direction: row; }
+    header nav .contLogoMenu .menu1 a {
       display: flex;
-      align-items: center; }
+      justify-content: center;
+      color: black;
+      list-style: none;
+      text-decoration: none;
+      padding: 0.9rem; }
+      @media screen and (min-width: 768px) {
+        header nav .contLogoMenu .menu1 a {
+          display: flex;
+          justify-content: center;
+          color: black;
+          list-style: none;
+          text-decoration: none;
+          font-size: 1.2rem; } }
+      header nav .contLogoMenu .menu1 a li {
+        display: flex;
+        align-items: center; }
 
 header .title {
   color: black;
@@ -51,7 +54,6 @@ header .title {
     header .title {
       color: black;
       font-size: 3rem;
-      margin: 3rem 3rem;
       padding: 0.3rem;
       text-align: center; } }
 
@@ -462,20 +464,20 @@ main .mainCompany3 {
     background-color: #51BCFA;
     padding: 1rem;
     align-items: center;
-    border-radius: 20px; }
+    border-radius: 0px; }
     @media screen and (min-width: 768px) {
       main .mainCompany3 .secTres1-3 {
         display: flex;
         flex-direction: column;
         margin-right: 1rem;
         background-color: #51BCFA;
-        border-radius: 10px;
+        border-radius: 0px;
         margin-top: 3rem; } }
     main .mainCompany3 .secTres1-3 .img-1-3 {
       display: flex;
       width: 40vw;
       background-color: #338DDE;
-      border-radius: 20px;
+      border-radius: 0px;
       padding: 0.2rem;
       margin-bottom: 1rem; }
       @media screen and (min-width: 768px) {
@@ -509,14 +511,14 @@ main .mainCompany3 {
     background-color: #51BCFA;
     padding: 1rem;
     align-items: center;
-    border-radius: 20px; }
+    border-radius: 0px; }
     @media screen and (min-width: 768px) {
       main .mainCompany3 .secTres2-3 {
         display: flex;
         flex-direction: column;
         margin-right: 1rem;
         background-color: #51BCFA;
-        border-radius: 10px;
+        border-radius: 0px;
         margin-top: 3rem; } }
     main .mainCompany3 .secTres2-3 .img-2-3 {
       display: flex;
@@ -553,13 +555,13 @@ main .mainCompany3 {
     background-color: #51BCFA;
     padding: 1rem;
     align-items: center;
-    border-radius: 20px; }
+    border-radius: 0px; }
     @media screen and (min-width: 768px) {
       main .mainCompany3 .secTres3-3 {
         display: flex;
         flex-direction: column;
         background-color: #51BCFA;
-        border-radius: 10px;
+        border-radius: 0px;
         margin-top: 3rem; } }
     main .mainCompany3 .secTres3-3 .img-3-3 {
       display: flex;
@@ -733,7 +735,7 @@ body {
   color: black; }
 
 .header {
-  height: 25rem;
+  height: 20rem;
   background-image: url(../img/Background.png);
   display: flex;
   flex-direction: column;
