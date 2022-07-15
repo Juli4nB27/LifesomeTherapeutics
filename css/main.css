@@ -11,7 +11,8 @@ header .escritorio {
 header nav .contLogoMenu {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-content: center; }
   header nav .contLogoMenu .logo a li {
     display: flex;
     justify-content: center; }
@@ -359,6 +360,10 @@ main .pMainTecnology3 {
   @media screen and (min-width: 768px) {
     main .pMainTecnology3 {
       margin: 1rem 5rem 0rem 5rem; } }
+
+.companyHead {
+  height: 20rem;
+  background-image: url(../img/Background.png); }
 
 main .mainCompany1 {
   display: flex;
