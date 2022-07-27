@@ -1,12 +1,17 @@
 @media screen and (min-width: 768px) {
   header .mobile {
-    display: none; } }
+    display: none; 
+  } 
+}
 
 header .escritorio {
-  display: none; }
+  display: none; 
+}
   @media screen and (min-width: 768px) {
     header .escritorio {
-      display: block; } }
+      display: block; 
+    } 
+  }
 
 header nav .contLogoMenu {
   display: flex;
